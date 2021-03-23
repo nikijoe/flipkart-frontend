@@ -9,7 +9,7 @@ export default function PriceDetails(props) {
                 <div className="flexRow sb" style={{
                     margin: '10px 0'}}>
                         <div>Price ({props.totalItem} items)</div>
-                        <div>Price ({props.totalPrice} items)</div>
+                        <div>Price (Rs. {props.totalPrice})</div>
                 </div>
                 <div className="flexRow sb" style={{
                     margin: '10px 0'}}>
